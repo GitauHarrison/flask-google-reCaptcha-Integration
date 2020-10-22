@@ -59,7 +59,7 @@ Now that we have our structure set up, we are going to start building our simple
 * [flask-bootstrap](https://pythonhosted.org/Flask-Bootstrap/)
 * [python-dotenv](https://pypi.org/project/python-dotenv/)
 
-In order for us to install all these packages and the dependancies, it is recommended that you create a virtual environment to isolate your app from your system's ecosystem or possible future dependancies upgrade. 
+In order for us to install all these packages and the dependancies, it is recommended that you create a virtual environment to isolate your app from your computer's ecosystem or possible future dependancies upgrade. 
 
 We will use `pip` to install all our dependancies. Learn what `pip` is [here](https://pypi.org/project/pip/).
 
@@ -86,7 +86,7 @@ virtualenvwrapper.user_scripts creating /home/gitau/.virtualenvs/recaptcha_proje
 (recaptcha_project) gitau@harry:~/recaptcha_project$
 ```
 
-If you are not familiar with `virtualenvwrapper`, learn how you can install it in your computer [here](virtualenvwrapper_setup.md). 
+If you are not familiar with `virtualenvwrapper`, learn how you can install it in your computer [here](https://github.com/GitauHarrison/notes/blob/master/virtualenvwrapper_setup.md). 
 
 From now, we will be working within our new virtual environment to really isolate our app during development.
 
