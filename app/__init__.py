@@ -13,5 +13,13 @@ db   = SQLAlchemy(app)
 migrate = Migrate(app, db)
 moment = Moment(app)
 
+def start_ngrok():
+    from pyngrok import ngrok
 
+    url = ngrok.connect(5000)
+    print(' * Tunnel URL:', url)
+
+if app.config['START_NGROK']:
+    start_ngrok()
+    
 from app import routes
